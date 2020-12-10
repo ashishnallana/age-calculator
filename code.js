@@ -24,7 +24,7 @@ btn.addEventListener("click", (days, month, year) => {
     year = yearH.value;
 
     if (daysH.value == "" || monthH.value == "" || yearH.value == "") {
-        return alert("Please enter your date of birth properlarH.y to calculate your age")
+        return alert("Please enter your date of birth properly to calculate your age")
     }
 
     // no else condition needed
